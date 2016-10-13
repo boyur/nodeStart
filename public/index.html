@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Артем Боюр</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta name="viewport" content="wight=device-width, initial-scale=1">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <script src="/assets/js/app.js" defer></script>
+    <link rel="stylesheet" href="/assets/css/style.min.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="preloader__main">
+        <div class="preloader__spiner"></div><span class="preloader__value" data-unit="%" id="preloaderCounter">0</span>
+      </div>
+    </div>
+    <div class="wrapper-start">
+      <div class="welcome__flipper" id="welcomeFlipper">
+        <div class="authorization welcome__flipper--back" id="authBlock">
+          <div class="authorization__main">
+            <div class="title title--auth title-dashes">Авторизуйтесь</div>
+            <div class="authorization__item">
+              <div class="authorization__icon"><i class="fa fa-user" aria-hidden="true"></i></div>
+              <input class="authorization__input" type="text" placeholder="Логин">
+            </div>
+            <div class="authorization__item">
+              <div class="authorization__icon"><i class="fa fa-key" aria-hidden="true"></i></div>
+              <input class="authorization__input" type="password" placeholder="Пароль">
+            </div>
+            <div class="checkbox">
+              <input id="check1" type="checkbox" name="check" value="check1">
+              <label for="check1">Я человек</label>
+            </div>
+            <div class="radio-text">Вы точно не робот?</div>
+            <div class="radio">
+              <input id="radio1" type="radio" name="radio" value="yes">
+              <label for="radio1">Да</label>
+              <input id="radio2" type="radio" name="radio" value="no">
+              <label for="radio2">Не уверен</label>
+            </div>
+          </div>
+          <div class="start__btns"><a class="start__btn start__btn--auth" href="#" id="welcomeBtn">На главную</a><a class="start__btn start__btn--auth" href="#">Войти</a></div>
+        </div>
+        <div class="welcome" id="welcomeBlock">
+          <div class="welcome__main">
+            <div class="user__avatar"><img class="user__avatar-img" src="assets/img/welcome/avatar.jpg"></div>
+            <div class="user__title user__title--black">Артем Боюр</div>
+            <div class="user__text user__text--black">Личный сайт веб разработчика</div>
+            <div class="welcome__social"><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
+          </div>
+          <div class="start__btns"><a class="start__btn" href="works.html">Мои работы</a><a class="start__btn" href="about.html">Обо мне</a><a class="start__btn" href="blog.html">Блог</a></div>
+        </div>
+      </div>
+      <footer class="footer-start">
+        <div class="footer-start__content">© Артем Боюр | создано с любовью в LoftSchool | 2016</div>
+      </footer>
+    </div><a class="auth-btn" href="#" id="authBtn">Авторизоваться</a>
+  </body>
+</html>
